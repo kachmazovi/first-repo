@@ -1,4 +1,37 @@
+/*გუგლის ფონტი*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&display=swap');
+
+/*ქართული ფონტი*/
+@import url("//cdn.web-fonts.ge/fonts/bpg-dedaena-nonblock/css/bpg-dedaena-nonblock.min.css");
+
 h1 {
 	font-size: 40px;
 	color: blue;
+	font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+	font-size: 50px;
+
+	font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+
+h3 {
+	font-size: 50px;
+	font-family: "BPG DedaEna Block", sans-serif;
+	color: green;
+}
+
+h4 {
+	font-size: 35px;
+	font-family: "BPG DedaEna Nonblock", sans-serif;
+	color: red;
+}
+
+.line {
+	width: 5px;
+	height: 30px;
+	background: red;
+	display: inline-block;
 }
